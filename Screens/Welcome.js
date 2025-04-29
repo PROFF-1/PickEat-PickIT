@@ -5,10 +5,9 @@ import CustomButton from '../Components/CustomButton'
 
 export default function Welcome() {
   return (
-    <View>
+    <View className='flex-1'>
       <CustomButton/>
     </View>
   )
 }
 
-const styles = StyleSheet.create({})
