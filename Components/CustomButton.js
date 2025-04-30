@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function CustomButton({props, onPress}) {
   return (
-    <TouchableOpacity className={`w-60 h-20 bg-blue-500 rounded-full items-center justify-center ${props}`} onPress={onPress}>
-      <Text className='text-3xl font-bold text-green-500'>CustomButton</Text>
+    <TouchableOpacity className={`w-[300] h-[55] bg-green-700 rounded-lg items-center justify-center ${props}`} onPress={onPress}>
+      <Text className='text-sm font-medium text-white'>Get Started</Text>
     </TouchableOpacity>
   )
 }
